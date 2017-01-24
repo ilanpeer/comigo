@@ -19,15 +19,19 @@ a:focus {
     color: #f14848;
 }
 
-.top-nav a:active {
-    color: #f14848;
-    font-weight: 700;
+.footer {
+    background-color: #3d3d3d;
 }
 
-.footer a:link  {
+.solutions-inside a:hover {
+    color: #f14848;
+}
+
+.industry-inside a:hover {
+    color: #f14848;
+}
+
+.footer a  {
     color: white;
 }
 
-.footer {
-    background-color: aqua;
-}
