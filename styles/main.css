@@ -15,7 +15,8 @@ a:visited {
 }
 
 a:hover,
-a:focus {
+a:focus,
+a:active {
     color: #f14848;
 }
 
@@ -31,7 +32,11 @@ a:focus {
     color: #f14848;
 }
 
-.footer a  {
+.footer a {
     color: white;
 }
 
+.legal {
+  font-size: small;
+  font-weight: 400;
+}
