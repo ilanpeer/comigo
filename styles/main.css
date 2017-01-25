@@ -1,60 +1,175 @@
+/*global*/
+
 body {
     font-family: sans-serif;
     background-color: #fff;
 }
-
 @media (max-width: 700px) {
   nav.top-nav {
     display: none
   }
 }
+ul {
+  list-style: none;
+}
+
+/*links*/
 
 a:link,
 a:visited {
     color: #000000;
     text-decoration: none;
 }
-
 a:hover,
 a:focus,
 a:active {
     color: #f14848;
 }
-
-ul {
-  list-style: none;
-}
-
-.footer {
-    background-color: #3d3d3d;
-}
-
 .solutions-inside a:hover {
-    color: #f14848;
+  color: #f14848;
 }
-
 .industry-inside a:hover {
-    color: #f14848;
+  color: #f14848;
 }
-
+.interactive, p a {
+  color: white;
+}
 .footer a {
-    color: white;
+  color: white;
 }
 
-.legal {
-  font-size: small;
-  font-weight: 400;
-}
-
-.blog-links li {
-  border: solid 1px red;
-}
+/*pics & bg*/
 
 .top-banner {
   /*border: solid 1px red;*/
-  background-color: none;
-  background-image: url("../assets/other/homepage-featured-new-1920x745.jpg") ;
-  background-position: auto 100%;
+  background-color: red;
+  height: 400px;
+  background-image: url("../assets/other/homepage-featured-new-1920x745.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: top center;
+}
 
+/*hover for image*/
 
+.interactive {
+  background: black;
+}
+.interactive .pedia {
+  background-image: url("../assets/services/pedia.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+.interactive .participation {
+  background-image: url("../assets/services/participation.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+.interactive .discovery {
+  background-image: url("../assets/services/discovery.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+.interactive .commerce {
+  background-image: url("../assets/services/commerce.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+.interactive .advertising {
+  background-image: url("../assets/services/advertising.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+.interactive .customize {
+  background-image: url("../assets/services/customize.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+/*3 middle boxes*/
+
+.solutions-1 {
+  display: inline-block;
+  background-image: url("../assets/other/home-tv-service-bg1.png"), url("../assets/other/ic_EI_cloud_2_home_page.png");
+  background-position: center, center;
+}
+.solutions-2 {
+  display:inline-block;
+  background-image: url("../assets/other/home-tv-service-bg2.png"), url("../assets/other/ic-stb-screens.png");
+  background-position: center, center;
+}
+.solutions-3 {
+  display: block;
+  background-image: url("../assets/other/screen_whos_on.jpg");
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+/*bottom pdfs*/
+
+.bottom {
+  background-color: #eeeeee;
+}
+.bottom .dl-pdf {
+  background-color: red;
+}
+.bottom .schedule-demo {
+  background-image: url("../assets/other/screen_demo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bottom .schedule-meeting {
+  background-image: url("../assets/other/img-event-IBC.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*blog links*/
+
+.blog-links ul {
+  display: block;
+}
+.blog-links ul li {
+  display: inline-block;
+  width: 200px;
+  height: 500px;
+}
+.blog-links .ibc2016 {
+  background-image: url("../assets/blog/ibc_post_EI-750x508.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+.blog-links .tv-connect {
+  display: inline-block;
+  background-image: url("../assets/blog/IMG_9294-750x563.jpeg");
+  background-repeat:no-repeat;
+  background-position: 0 0;
+}
+.blog-links .big-data {
+  display: inline-block;
+  background-image: url("../assets/blog/Image-Blog-Yoav_356121362-copy-750x563.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+.blog-links .infusion {
+  display: inline-block;
+  background-image: url("../assets/blog/post_tv_connect-750x508.jpeg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+.blog-links .emptor {
+  display: inline-block;
+  background-image: url("../assets/blog/post_quality-750x508.jpeg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+/*footer*/
+
+.footer {
+  background-color: #3d3d3d;
+}
+.legal {
+  font-size: small;
+  font-weight: 400;
 }
