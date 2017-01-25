@@ -1,5 +1,6 @@
 body {
     font-family: sans-serif;
+    background-color: #fff;
 }
 
 @media (max-width: 700px) {
@@ -18,6 +19,10 @@ a:hover,
 a:focus,
 a:active {
     color: #f14848;
+}
+
+ul {
+  list-style: none;
 }
 
 .footer {
@@ -39,4 +44,17 @@ a:active {
 .legal {
   font-size: small;
   font-weight: 400;
+}
+
+.blog-links li {
+  border: solid 1px red;
+}
+
+.top-banner {
+  /*border: solid 1px red;*/
+  background-color: none;
+  background-image: url("../assets/other/homepage-featured-new-1920x745.jpg") ;
+  background-position: auto 100%;
+
+
 }
