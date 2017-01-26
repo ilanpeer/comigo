@@ -21,21 +21,20 @@ a:visited {
     text-decoration: none;
 }
 a:hover,
-a:focus,
 a:active {
     color: #f14848;
+}
+.interactive p, a {
+  color: white;
+}
+.footer a {
+  color: white;
 }
 .solutions-inside a:hover {
   color: #f14848;
 }
 .industry-inside a:hover {
   color: #f14848;
-}
-.interactive, p a {
-  color: white;
-}
-.footer a {
-  color: white;
 }
 
 /*pics & bg*/
@@ -50,10 +49,11 @@ a:active {
   background-position: top center;
 }
 
-/*hover for image*/
+/*hover image*/
 
 .interactive {
-  background: black;
+  background-color: black;
+  background-image: url("../assets/videos/video-action-thriller-750x422.jpg"), url("../assets/videos/video-army-helicopters-750x422.jpg") url("../assets/videos/video-car-drive-750x422.jpg") ;
 }
 .interactive .pedia {
   background-image: url("../assets/services/pedia.png");
@@ -140,25 +140,21 @@ a:active {
   background-position: 0 0;
 }
 .blog-links .tv-connect {
-  display: inline-block;
   background-image: url("../assets/blog/IMG_9294-750x563.jpeg");
   background-repeat:no-repeat;
   background-position: 0 0;
 }
 .blog-links .big-data {
-  display: inline-block;
   background-image: url("../assets/blog/Image-Blog-Yoav_356121362-copy-750x563.jpg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
 .blog-links .infusion {
-  display: inline-block;
   background-image: url("../assets/blog/post_tv_connect-750x508.jpeg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
 .blog-links .emptor {
-  display: inline-block;
   background-image: url("../assets/blog/post_quality-750x508.jpeg");
   background-repeat: no-repeat;
   background-position: 0 0;
