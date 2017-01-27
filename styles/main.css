@@ -1,10 +1,12 @@
 /*global*/
 
+* {
+  border: red solid 1px;
+}
 head {
   font-size: 100%;
 }
 body {
-  background-color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
 }
 @media (max-width: 700px) {
@@ -16,32 +18,20 @@ ul {
   list-style: none;
 }
 
-.capitalized {
-  text-transform: uppercase;
-}
-.interactive ul li a {
-  text-transform: uppercase;
-}
-
 /*links*/
 
 a:link,
 a:visited {
-    color: #000000;
+    color: #3d3d3d;
     text-decoration: none;
 }
 a:hover,
 a:active {
     color: #f14848;
 }
-.interactive p, a {
-  color: white;
-}
+
 .footer a {
   color: white;
-}
-.footer .solutions-inside {
-  
 }
 .solutions-inside a:hover {
   color: #f14848;
@@ -53,16 +43,15 @@ a:active {
 /*pics & bg*/
 
 .top-banner {
-  /*border: solid 1px red;*/
   background-color: red;
-  height: 400px;
+  height: 745px;
   background-image: url("../assets/other/homepage-featured-new-1920x745.jpg");
+  background-size: contain;
   background-repeat: no-repeat;
-  background-size: 100% auto;
-  background-position: top center;
+  background-position: 0 0;
 }
 
-/*hover image*/
+/*interactive*/
 
 .interactive {
   background-color: black;
@@ -120,28 +109,20 @@ a:active {
 /*bottom pdfs*/
 
 .bottom {
-  background-color: #eeeeee;
+  display: inline-block;
+  background-color: #f9f9f9;
 }
 .dl-pdf {
+  background-color: #f14848;
   width: 269px;
   height: 300px;
-  background-color: red;
-}
-.schedule-demo {
-  background-image: url("../assets/other/screen_demo.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.schedule-meeting {
-  background-image: url("../assets/other/img-event-IBC.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 /*blog links*/
 .blog-links {
   display: block;
 }
+
 .blog-links ul li {
   display: inline-block;
   width: 200px;
@@ -178,7 +159,87 @@ a:active {
 .footer {
   background-color: #3d3d3d;
 }
+.schedule-demo {
+   background-image: url("../assets/other/screen_demo.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+ }
+.meeting {
+  background-image: url("../assets/other/img-event-IBC.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .legal {
   font-size: small;
   font-weight: 400;
+}
+
+/*fonts*/
+.top-banner {
+  color: white;
+}
+.top-banner a {
+  color: white;
+}
+.why-comigo {
+  color: #3d3d3d;
+}
+.why-comigo a {
+  color: white;
+}
+.interactive p {
+  color: white;
+}
+.interactive h3 {
+  color: white;
+}
+.capitalized {
+  text-transform: uppercase;
+}
+.interactive ul li a {
+  text-transform: uppercase;
+  color: #606060;
+}
+.interactive a:hover {
+  color: #f14848;
+}
+.solutions-1 {
+  color: #ffffff;
+}
+.solutions-1 a {
+  color: #f14848;
+}
+.solutions-2 {
+  color: #606060;
+}
+.solutions-2 a {
+  color: #ffffff;
+}
+.solutions-3 {
+  color: #606060;
+}
+.solutions-3 a {
+  color: #ffffff;
+}
+.dl-pdf a {
+  color: #ffffff;
+}
+.meeting a {
+  color: #3d3d3d;
+}
+.schedule-demo a {
+  color: #3d3d3d;
+}
+.bottom > ul a {
+  color: #3d3d3d;
+}
+.blog-links a {
+  color: #ffffff;
+}
+
+/*align*/
+.top-banner {
+  display: block;
+  width: 100%;
+  height: auto;
 }
