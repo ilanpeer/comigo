@@ -1,78 +1,79 @@
 /*global*/
-
 html {
   box-sizing: border-box;
 }
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
 head {
   font-size: 100%;
 }
-
 body {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
 }
-
 ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-header {
-  height: 66px;
-}
-.top-nav {
-  top: auto;
-  float: right;
-  line-height: 66px;
-  padding-right: 20px;
-}
-.top-nav ul {
-  float: right;
-}
-.top-nav li {
-  display: inline-block;
-}
-.top-nav li > ul {
-  display: none;
-}
-.top-nav a {
-  padding: 0 10px;
-  line-height: 66px;
-  display: inline-block;
-}
-.logo-top {
-  display: inline-block;
-  line-height: 66px;
-  padding-left: 20px;
-}
-.logo-top img {
-  vertical-align: middle;
-}
 .red-btn {
   display: inline-block;
-  color: white;
   background-color: #f14848;
+  color: #ffffff;
   height: 40px;
-  text-align: center;
   text-transform: uppercase;
-  padding: 10px;
+  padding: 11px 20px;
   border-radius: 20px;
   font-weight: 400;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
 }
 .white-btn {
   display: inline-block;
   background-color: #ffffff;
-  color: red;
+  color: #f14848;
   height: 40px;
-  text-align: center;
   text-transform: uppercase;
-  padding: 10px;
+  padding: 11px 20px;
   border-radius: 20px;
   font-weight: 400;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+}
+
+/*the shiznit*/
+
+header {
+height: 66px;
+}
+.top-nav {
+top: auto;
+float: right;
+line-height: 66px;
+padding-right: 20px;
+}
+.top-nav ul {
+float: right;
+}
+.top-nav li {
+display: inline-block;
+}
+.top-nav li > ul {
+display: none;
+}
+.top-nav a {
+padding: 0 10px;
+line-height: 66px;
+display: inline-block;
+}
+.logo-top {
+display: inline-block;
+line-height: 66px;
+padding-left: 20px;
+}
+.logo-top img {
+vertical-align: middle;
 }
 
 /*links*/
@@ -289,16 +290,19 @@ a:active {
   color: #3d3d3d;
   display: block;
   text-align: center;
-  padding: 150px 0 150px
+  padding: 60px 0 80px
 }
 .why-comigo h3 {
-  font-size: 3rem;
+  font-size: 3.2rem;
   font-weight: 300;
   margin: 0;
 }
 .why-comigo p {
+  font-size: 1.3rem;
   font-weight: 300;
   margin: 0;
+  padding: 20px 0 20px;
+  line-height: 1.8rem;
 }
 .why-comigo a {
   color: white;
