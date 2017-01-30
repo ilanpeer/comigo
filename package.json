@@ -1,0 +1,22 @@
+{
+  "name": "comigo",
+  "version": "1.0.0",
+  "description": "My Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilanpeer/comigo.git"
+  },
+  "author": "Ilan Peer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilanpeer/comigo/issues"
+  },
+  "homepage": "https://github.com/ilanpeer/comigo#readme",
+  "dependencies": {
+    "normalize.css": "^5.0.0"
+  }
+}
