@@ -1,4 +1,10 @@
 /*global*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 head {
   font-size: 100%;
@@ -11,9 +17,10 @@ body {
 
 ul {
   list-style: none;
-  /*display: inline-block;*/
+  display: inline-block;
 }
 .red-btn {
+  display: inline-block;
   background-color: #f14848;
   color: white;
   text-transform: uppercase;
@@ -21,7 +28,9 @@ ul {
   border-radius: 20px;
   font-weight: 400;
 }
+
 .white-btn {
+  display: inline-block;
   background-color: #ffffff;
   color: red;
   text-transform: uppercase;
@@ -65,8 +74,8 @@ a:active {
   text-align: center;
 }
 .txt-align {
-  padding-top: 10%;
-  padding-left: 10%;
+  display: inline-block;
+
 }
 .why-comigo {
   display: block;
@@ -113,7 +122,7 @@ a:active {
 
 .solutions-1 {
   display: inline-block;
-  width: 600px;
+  width: 50%;
   height: 500px;
   background-image: url("../assets/other/home-tv-service-bg1.png"), url("../assets/other/ic_EI_cloud_2_home_page.png");
   background-position: center, center;
@@ -121,7 +130,7 @@ a:active {
 }
 .solutions-2 {
   display: inline-block;
-  width: 600px;
+  width: 50%;
   height: 500px;
   background-image: url("../assets/other/home-tv-service-bg2.png"), url("../assets/other/ic-stb-screens.png");
   background-position: center, center;
