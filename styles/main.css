@@ -103,8 +103,7 @@ a:active {
   background-image: url("../assets/other/homepage-featured-new-1920x745.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 35vw;
-  overflow: hidden;
+  height: 38.8vw;
 }
 .txt-align {
   display: block;
@@ -267,12 +266,12 @@ a:active {
 .top-banner {
   color: white;
   text-align: center;
+  padding: 10% 0;
 }
 .top-banner a {
   color: white;
 }
 .our-solutions {
-  padding: 10% 0 5%;
   line-height: 1rem;
   width: 100vw;
 }
@@ -283,7 +282,7 @@ a:active {
 .our-solutions p {
   font-size: 4rem;
   font-weight: 400;
-  margin: 0;
+  margin: 5%;
 }
 
 .why-comigo {
