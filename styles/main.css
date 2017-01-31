@@ -161,15 +161,17 @@ a:active {
   background-image: url("../assets/other/ic_EI_cloud_2_home_page.png"), url("../assets/other/home-tv-service-bg1.png");
   background-position: center, center;
   background-repeat: no-repeat;
-  background-size: 50%, 100%;
+  background-size: 100%, 100%;
   text-align: center;
 }
 .solutions-2 {
   display: inline-block;
   width: 50%;
   height: 500px;
-  background-image: url("../assets/other/home-tv-service-bg2.png"), url("../assets/other/ic-stb-screens.png");
+  background-image: url("../assets/other/ic-stb-screens.png"), url("../assets/other/home-tv-service-bg2.png");
   background-position: center, center;
+  background-repeat: no-repeat;
+  background-size: 50%, 100%;
   text-align: center;
 }
 .solutions-3 {
@@ -278,13 +280,13 @@ a:active {
 .top-banner {
   color: white;
   text-align: center;
-  padding: 10% 0;
+  padding: 10.5% 0;
 }
 .top-banner a {
   color: white;
 }
 .our-solutions {
-  line-height: 0.5;
+  line-height: 0.3;
   width: 100vw;
 }
 .our-solutions h2 {
@@ -294,7 +296,7 @@ a:active {
 .our-solutions p {
   font-size: 4rem;
   font-weight: 400;
-  margin: 3% 0 5%;
+  margin: 3% 0 4%;
 }
 .why-comigo {
   color: #3d3d3d;
