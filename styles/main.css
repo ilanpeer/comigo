@@ -100,10 +100,8 @@ a:active {
 /*pics & bg*/
 
 .top-banner {
-  display: block;
   background-image: url("../assets/other/homepage-featured-new-1920x745.jpg");
   background-repeat: no-repeat;
-  background-position: center center;
   background-size: cover;
   min-height: 35vw;
   overflow: hidden;
@@ -274,8 +272,8 @@ a:active {
   color: white;
 }
 .our-solutions {
-  padding: 120px 0 40px;
-  line-height: 2rem;
+  padding: 10% 0 5%;
+  line-height: 1rem;
   width: 100vw;
 }
 .our-solutions h2 {
