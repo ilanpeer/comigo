@@ -45,7 +45,7 @@ ul {
 /*the shiznit*/
 
 header {
-height: 66px;
+  height: 66px;
 }
 .top-nav {
 top: auto;
@@ -101,11 +101,12 @@ a:active {
 
 .top-banner {
   display: block;
-  height: 500px;
   background-image: url("../assets/other/homepage-featured-new-1920x745.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  min-height: 35vw;
+  overflow: hidden;
 }
 .txt-align {
   display: block;
@@ -275,6 +276,7 @@ a:active {
 .our-solutions {
   padding: 120px 0 40px;
   line-height: 2rem;
+  width: 100vw;
 }
 .our-solutions h2 {
   font-size: 2rem;
