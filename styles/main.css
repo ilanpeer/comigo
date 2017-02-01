@@ -78,6 +78,11 @@ header {
   float: left;
   text-align: center;
 }
+
+.top-nav li:hover > ul > a {
+  display: inline-block;
+}
+
 .top-nav li > ul > li > ul > a {
   width: 100%;
   text-align: center;
@@ -91,21 +96,30 @@ header {
   position: absolute;
   width: 100%;
   top: 66px;
-  line-height: 150px;
   left: 0;
 }
 .top-nav ul ul ul {
   position: absolute;
   width: 100%;
   top: 150px;
-  line-height: 170px;
   left: 0;
+}
+.top-nav > ul ul a {
+  line-height: 150px;
+}
+.top-nav > ul ul a span {
+  line-height: 1px;
+  font-size: 2rem;
 }
 
 .top-nav a {
   display: inline-block;
   padding: 0 10px;
-  line-height: 66px;
+}
+.top-nav a span {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
 }
 .logo-top {
   display: inline-block;
