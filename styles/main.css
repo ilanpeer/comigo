@@ -108,8 +108,11 @@ header {
   line-height: 150px;
 }
 .top-nav > ul ul a span {
-  line-height: 1px;
+  line-height: 1;
   font-size: 2rem;
+}
+.top-nav > ul > ul > a > span > span {
+  text-transform: uppercase;
 }
 
 .top-nav a {
