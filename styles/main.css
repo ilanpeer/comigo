@@ -43,7 +43,7 @@ ul {
   letter-spacing: 0.1rem;
 }
 
-/*the shiznit*/
+/*top nav*/
 
 header {
   height: 66px;
@@ -63,7 +63,7 @@ header {
   float: right;
 }
 .top-nav li {
-  display: inline-block;
+  float: left
 }
 .top-nav li > ul {
   display: none;
@@ -78,11 +78,9 @@ header {
   float: left;
   text-align: center;
 }
-
 .top-nav li:hover > ul > a {
-  display: inline-block;
+  display: block;
 }
-
 .top-nav li > ul > li > ul > a {
   width: 100%;
   text-align: center;
@@ -106,21 +104,25 @@ header {
 }
 .top-nav > ul ul a {
   line-height: 150px;
+  display: block;
 }
 .top-nav > ul ul a span {
   line-height: 1;
   font-size: 2rem;
 }
-.top-nav > ul > ul > a > span > span {
-  text-transform: uppercase;
-}
-
+.solutions-inside li a:hover {
+  background-color: #f14848;
+  color: white;
+  }
+.industry-inside li a:hover {
+  color: white;
+  background-color: #f14848;
+  }
 .top-nav a {
   display: inline-block;
   padding: 0 10px;
 }
 .top-nav a span {
-  display: inline-block;
   vertical-align: middle;
   text-align: center;
 }
@@ -146,12 +148,6 @@ a:active {
 }
 .footer a {
   color: white;
-}
-.solutions-inside a:hover {
-  color: #f14848;
-}
-.industry-inside a:hover {
-  color: #f14848;
 }
 
 /*pics & bg*/
@@ -206,26 +202,25 @@ a:active {
 /*3 middle boxes*/
 
 .solutions-1 {
-  display: inline-block;
+  float: left;
   width: 50%;
-  height: 500px;
+  height: 600px;
   background-image: url("../assets/other/ic_EI_cloud_2_home_page.png"), url("../assets/other/home-tv-service-bg1.png");
-  background-position: center, center;
+  background-position: 120px 100px, center;
   background-repeat: no-repeat;
-  background-size: 100%, 100%;
-  text-align: center;
+  background-size: 50%, cover;
 }
 .solutions-2 {
-  display: inline-block;
+  float: right;
   width: 50%;
-  height: 500px;
+  height: 600px;
   background-image: url("../assets/other/ic-stb-screens.png"), url("../assets/other/home-tv-service-bg2.png");
-  background-position: center, center;
+  background-position: 50px 100px, center;
   background-repeat: no-repeat;
-  background-size: 50%, 100%;
-  text-align: center;
+  background-size: 40%, cover;
 }
 .solutions-3 {
+  clear: both;
   display: block;
   width: 100%;
   height: 600px;
@@ -238,28 +233,71 @@ a:active {
   font-size: 3rem;
   font-weight: 300;
 }
-/*bottom pdfs*/
+.solutions-1-txt {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 300px;
+}
+.solutions-2-txt {
+  margin: ;
+}
+.solutions-1-txt h3 {
+  font-size: 2.3rem;
+  font-weight: 300;
 
+}
+.solutions-2-txt h3 {
+  font-size: 2.3rem;
+  font-weight: 300;
+
+}
+/*bottom pdfs*/
 .bottom {
-  display: inline-block;
+  /*border: 1px solid red;*/
   background-color: #f9f9f9;
+}
+.float-left {
+  float: left;
+  width: 60%;
+  height: 50vw;
+}
+.float-right {
+  float: right;
+  width: 40%;
+  height: 50vw;
+}
+.learn-more {
+  width: 70%;
+  height: 10vw;
+}
+.dl-pdf {
+  width: 30%;
+  height: 10vw;
+}
+/*.float-social {*/
+  /*width: --take ratio from bottom box on comigo.com wh--*/
+  /*height: 20vw;*/
+/*}*/
+.schedule-demo {
+  width: 60%;
+  height: 20vw;
 }
 .dl-pdf {
   background-color: #f14848;
-  width: 269px;
-  height: 300px;
+  /*width: 269px;*/
+  /*height: 300px;*/
   text-align: center;
 }
 .schedule-demo {
-  height: 500px;
-  width: 600px;
+  /*height: 500px;*/
+  /*width: 600px;*/
   background-image: url("../assets/other/screen_demo.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }
 .meeting {
-  height: 270px;
-  width: 540px;
+  /*height: 270px;*/
+  /*width: 540px;*/
   background-image: url("../assets/other/img-event-IBC.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -267,6 +305,9 @@ a:active {
 
 /*blog links*/
 
+.blog-links {
+  clear: both;
+}
 .blog-links ul li {
   position: relative;
   float: left;
