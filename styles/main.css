@@ -239,7 +239,9 @@ a:active {
   padding-top: 300px;
 }
 .solutions-2-txt {
-  margin: ;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 300px;
 }
 .solutions-1-txt h3 {
   font-size: 2.3rem;
@@ -251,55 +253,70 @@ a:active {
   font-weight: 300;
 
 }
+
 /*bottom pdfs*/
+
 .bottom {
   /*border: 1px solid red;*/
+  height: 550px;
   background-color: #f9f9f9;
 }
 .float-left {
   float: left;
   width: 60%;
-  height: 50vw;
+  background-color: green;
 }
 .float-right {
   float: right;
   width: 40%;
-  height: 50vw;
+  background-color: red;
+}
+.f-l-top {
+  float: left;
+  width: 100%;
+  background-color: grey;
+  height: 300px;
+}
+.f-l-bottom {
+  float: right;
+  width: 100%;
+  background-color: blue;
+  height: 250px;
 }
 .learn-more {
+  float: left;
+  background-color: #f9f9f9;
   width: 70%;
-  height: 10vw;
+  height: inherit;
 }
-.dl-pdf {
-  width: 30%;
-  height: 10vw;
-}
-/*.float-social {*/
-  /*width: --take ratio from bottom box on comigo.com wh--*/
-  /*height: 20vw;*/
-/*}*/
-.schedule-demo {
-  width: 60%;
-  height: 20vw;
-}
-.dl-pdf {
+.pdf {
   background-color: #f14848;
-  /*width: 269px;*/
-  /*height: 300px;*/
-  text-align: center;
+  float: right;
+  width: 30%;
+  height: inherit;
 }
-.schedule-demo {
-  /*height: 500px;*/
-  /*width: 600px;*/
-  background-image: url("../assets/other/screen_demo.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
+.float-social {
+  float: left;
+  background-color: #efefef;
+  width: 25%;
+
 }
 .meeting {
-  /*height: 270px;*/
-  /*width: 540px;*/
+  float: right;
+  width: 75%;
+  height: inherit;
+  background-color: #e8e8e8;
   background-image: url("../assets/other/img-event-IBC.jpg");
   background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+
+}
+.schedule-demo {
+  height: inherit;
+  background-image: url("../assets/other/screen_demo.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
   background-position: center;
 }
 
@@ -445,7 +462,7 @@ a:active {
 .solutions-3 a {
   color: #ffffff;
 }
-.dl-pdf a {
+.pdf a {
   color: #ffffff;
 }
 .meeting a {
