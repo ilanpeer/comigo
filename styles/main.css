@@ -136,8 +136,7 @@ header {
   vertical-align: middle;
 }
 .too-long {
-  display: block;
-  padding: 50px;
+  display: inline-block;
 }
 
 /*links*/
@@ -173,8 +172,9 @@ a:active {
 }
 .inter-txts-left {
   display: inline-block;
-  width: 20%;
-  margin: 50px;
+  width: 30%;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 .inter-txts-left h3 {
   font-size: 2.4rem;
@@ -184,7 +184,10 @@ a:active {
 }
 .inter-pics-right {
   display: inline-block;
-  width: 30%;
+  width: 20%;
+}
+.inter-list {
+  position: relative;
 }
 .inter-list a {
   font-size: 1.4rem;
@@ -192,14 +195,14 @@ a:active {
   display: block;
 }
 .figures {
-  position: relative;
+  position: absolute;
   display: inline-block;
   font-size: 1.2rem;
-  width: 40%;
+  width: 30%;
+
 }
 .pedia {
-  position: absolute;
-  top: -300px;
+  top: 0;
   left: 0;
 }
 .participation {
