@@ -113,7 +113,7 @@ header {
   content: "- ";
 
 }
-.hamburger-icon label:checked .top-nav {
+.hamburger-icon label:checked, .top-nav {
   display: block;
 }
 
@@ -167,46 +167,47 @@ header {
 
 /* Interactive (a.k.a. Services) */
 
-.interactive {
+.services {
+  display: inline-block;
   background-color: black;
+  width: 100%;
   height: 40vw;
   margin: 0 auto;
 }
 
-.inter-txts-left {
-  display: inline-block;
-  vertical-align: middle;
-  width: 15%;
-  margin-left: 50px;
-  margin-right: 50px;
+.services-txts-left {
+  float: left;
+  width: 20%;
+  padding-left: 8%;
   text-align: left;
   color: white;
 }
 
-.inter-txts-left h2 {
-  font-size: 2.4rem;
+.services-txts-left h2 {
+  font-size: 2.1rem;
   text-transform: uppercase;
   font-weight: 300;
 }
 
-.inter-txts-left p {
+.services-txts-left p {
   font-size: 1.2rem;
   font-weight: 300;
 }
 
-.inter-pics-right {
-  display: inline-block;
-  vertical-align: middle;
-  width: 75%;
+.services-pics-right {
+  float: right;
+  width: 60%;
+  padding-right: 5%;
+  padding-top: 2%;
 }
 
-.inter-list {
+.services-list {
   position: relative;
   display: inline-block;
   vertical-align: middle;
 }
 
-.inter-list a {
+.services-list a {
   font-size: 1.5rem;
   line-height: 3rem;
   display: block;
@@ -214,7 +215,7 @@ header {
   text-transform: uppercase;
 }
 
-.inter-list li figure {
+.services-list li figure {
   color: white;
   position: absolute;
   top: 0;
@@ -225,14 +226,16 @@ header {
   text-align: center;
 }
 
-.inter-list a:hover + figure {
+.services-list a:hover + figure {
   display: inline-block;
 }
 
 /* 3 Solution Boxes */
+
 .solutions {
-  display: block;
-  height: 42vw;
+  /*display: inline-block;*/
+  margin: 0;
+  /*height: 42vw;*/
 }
 
 .solutions-1 {
@@ -254,14 +257,12 @@ header {
 }
 
 .solutions-1-txt {
-  display: inline-block;
   padding-left: 5%;
   padding-right: 10%;
   padding-top: 50%;
 }
 
 .solutions-2-txt {
-  display: inline-block;
   padding-left: 5%;
   padding-right: 10%;
   padding-top: 50%;
@@ -281,37 +282,33 @@ header {
 }
 
 .solutions-3 {
-  display: block;
-  height: 49vw;
-}
-
-.txt-align {
-  width: 30%;
-  /*display: inline-block;*/
+  height: 50vw;
+  background-image: url("../assets/other/screen_whos_on.jpg");
+  background-repeat: no-repeat;
+  background-position: 115% 50%;
+  background-size: 60% auto;
+  text-align: left;
+  color: #606060;
+  padding-left: 10%;
 }
 
 .solutions-3 h3 {
   font-size: 3.2rem;
   font-weight: 300;
+  width: 30%;
+
 }
 .solutions-3 p {
-  font-size: 1.1rem;
+  font-size: 1.8rem;
   font-weight: 300;
-}
-
-.pic-s3 {
-  display: inline-block;
-  background-image: url("../assets/other/screen_whos_on.jpg");
-  background-repeat: no-repeat;
-  background-position: top right;
-  background-size: 60%;
+  width: 30%;
 }
 
 /* 5 Float Boxes */
 
-.bottom {
-  width: 100vw;
-  height: 40vw;
+.learn-more {
+  /*width: 100vw;*/
+  height: 45.7vw;
   background-color: #f9f9f9;
 }
 
@@ -326,7 +323,11 @@ header {
   float: right;
   width: 40%;
   height: 40vw;
-  background-color: red;
+  /*background-color: red;*/
+  background-image: url("../assets/other/screen_demo.jpg");
+  background-repeat: no-repeat;
+  /*background-size: 60% auto;*/
+  background-position: left, bottom;
 }
 
 .f-l-top {
@@ -373,15 +374,6 @@ header {
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: center;
-}
-
-.schedule-demo {
-  float: right;
-  height: 40vw;
-  background-image: url("../assets/other/screen_demo.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left, bottom;
 }
 
 /* Blog Links */
@@ -440,14 +432,18 @@ header {
 .footer {
   position: relative;
   background-color: #151515;
-  height: 21.62vw;
+  height: 26.11vw;
+  width: 100%;
 }
 
 .nav-footer {
-  background-color: #3d3d3d;
+  background-color: #1e2024;
   height: 85%;
-  /*width: 90%;*/
-  margin: 0 auto;
+  /*margin: 0 auto;*/
+}
+
+.nav-footer a {
+  color: #FFFFFF;
 }
 
 .nav-footer .foot-list1 {
@@ -480,68 +476,14 @@ header {
   right: 10%;
 }
 
-.foot-legal {
-  position: absolute;
-  bottom: 0;
-  left: 10%;
-}
-
 .legal {
   font-weight: 400;
 }
-
-.social-links {
-  display: inline-block;
+.left-legal-text li {
+  display: inline;
 }
-
-/* Fonts */
-
-.capitalized {
-  text-transform: uppercase;
-}
-
-.solutions-1 {
-  color: #ffffff;
-}
-
-.solutions-1 a {
-  color: #f14848;
-}
-
-.solutions-2 {
-  color: #606060;
-}
-
-.solutions-2 a {
-  color: #ffffff;
-}
-
-.solutions-3 {
-  color: #606060;
-}
-
-.solutions-3 a {
-  color: #ffffff;
-}
-
-.pdf a {
-  color: #ffffff;
-}
-
-.meeting a {
-  color: #3d3d3d;
-}
-
-.schedule-demo a {
-  color: #3d3d3d;
-}
-
-.bottom > ul a {
-  color: #3d3d3d;
-}
-
-.blog-links a {
-  color: #ffffff;
+.right-legal-text li {
+  display: inline;
 }
 
 /* Helpers */
@@ -655,6 +597,11 @@ header {
   .top-nav ul ul a:before {
     content: '';
   }
+  .top-nav span {
+    line-height: 1;
+    display: inline-block
+  }
+
 
 }
 @media (min-width: 701px) {
@@ -665,5 +612,3 @@ header {
     max-width: 560px;
   }
 }
-
-646
