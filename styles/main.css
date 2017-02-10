@@ -168,16 +168,19 @@ header {
 /* Interactive (a.k.a. Services) */
 
 .services {
-  display: inline-block;
+  display: block;
   background-color: black;
   width: 100%;
   height: 40vw;
   margin: 0 auto;
 }
-
+.align-services {
+  width: 90%;
+  margin: 0 auto;
+}
 .services-txts-left {
   float: left;
-  width: 20%;
+  width: 30%;
   padding-left: 8%;
   text-align: left;
   color: white;
@@ -316,20 +319,16 @@ header {
   float: left;
   width: 60%;
   height: 40vw;
-  background-color: green;
 }
 
-.float-right {
+.schedule-demo {
   float: right;
   width: 40%;
   height: 40vw;
-  /*background-color: red;*/
   background-image: url("../assets/other/screen_demo.jpg");
   background-repeat: no-repeat;
-  /*background-size: 60% auto;*/
   background-position: left, bottom;
 }
-
 .f-l-top {
   float: left;
   width: 100%;
