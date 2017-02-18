@@ -333,12 +333,6 @@ figure img {
 
 }
 
-.tv {
-
-  height: 49vw;
-
-}
-
 .tv-container {
   background-image: url(../images/other/screen_whos_on.jpg);
   background-repeat: no-repeat;
@@ -410,10 +404,8 @@ figure img {
 
 .schedule-ibc {
   background-image: url(../images/other/img-event-IBC.jpg);
-
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-repeat: no-repeat;
 }
 
 .demo {

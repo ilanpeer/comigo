@@ -9,5 +9,35 @@
 </head>
 <body>
 
+<div>
+  <div class="foot-list1">
+    <ul>
+      <li> <a href="#">Home</a> </li>
+      <li> <a href="#">Our Solutions</a> </li>
+      <li> <a href="#">EI Cloud</a> </li>
+      <li> <a href="#">EI Middleware</a> </li>
+      <li> <a href="#">Android STB</a> </li>
+    </ul>
+  </div>
+  <div class="foot-list2">
+    <ul>
+      <li> <a href="#">Partners</a> </li>
+      <li> <a href="#">Industry Insights</a> </li>
+      <li> <a href="#">Media Room</a> </li>
+      <li> <a href="#">Blog</a> </li>
+      <li> <a href="#">Industry Events</a> </li>
+    </ul>
+  </div>
+  <div class="foot-list3">
+    <ul>
+      <li> <a href="#">About Us</a> </li>
+      <li> <a href="#">Contact Us</a> </li>
+    </ul>
+  </div>
+  <div class="foot-list4">
+    <a href="#"> <img src="assets/logo/comigo-logo-white.png" alt="Comigo Logo"> </a>
+  </div>
+</div>
+
 </body>
 </html>
