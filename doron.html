@@ -1,0 +1,394 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Fisrt Site</title>
+  <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+  <link rel="stylesheet" href="style/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+
+</head>
+
+
+<body>
+
+<header>
+
+  <!--insite navigation-->
+  <nav class="clearfix">
+    <input type="checkbox" id="menubutton">
+    <label for="menubutton">menu</label>
+
+    <a href="index.html"> <img src="assets/logo/comigo-logo-black.png" alt="logo of comigo"> </a>
+
+    <ul class="nav-links capitalize nav-top clearfix">
+
+      <li><a href="#">home</a></li>
+
+      <li><a href="#" class="extract">our solutions</a>  <!-- needs a :hover maybe-->
+        <ul class="sub-menu all-cap">               <!--first sub menu-->
+          <li><a href="#" class="extract"><span>el cloud</span></a>
+            <ul class="sub-sub-menu clearfix">
+              <li><a href="#"><span>el<sup>x</sup></span> </a></li>
+              <li><a href="#"><span>ei mind</span> </a></li>
+            </ul>
+
+          <li><a href="#" class="extract"><span>el middleware</span> </a>   <!--second sub menu-->
+            <ul class="clearfix">
+              <li><a href="#"><span>android</span></a></li>
+              <li><a href="#">
+                <span>comico whatchapp applications<sup>tm</sup> </span>
+
+              </a></li>
+            </ul>
+          </li>
+          <li><a href="#">android stb </a></li>
+        </ul>
+      </li>
+
+      <li><a href="#">partners</a></li>
+
+      <li><a href="#" class="extract">industry inshights</a>
+        <ul class="sub-menu all-cap">  <!--"all caps" was erased-->
+          <li><a href="#"><span>industry events</span></a></li>
+          <li><a href="#"><span>blog</span></a></li>
+          <li><a href="#"><span>media room</span></a></li>
+        </ul>
+      </li>
+
+      <li><a href="#">about</a></li>
+
+      <li><a href="#">contact</a></li>
+    </ul>
+
+  </nav>
+</header>
+
+
+<main>
+
+  <article>  <!--all "WHY COMICO" references-->
+
+
+    <!--welcoming imag-->
+
+    <header class="welcoming-strip text-align">
+      <h1>Comigo OTT/STB solution - redfine TV experience</h1>
+      <h2>Experience Intelligence</h2>
+      <a class="btn all-cap" href="">our solution</a>    <!-- No ID ceause i can do class <header> a {} -->
+    </header>
+
+
+    <div class="white-strip slim text-align">
+      <h5 class="all-cap">why comico?</h5>
+      <h2>Comigo redefines the TV experience, infusing it with the full power of the Internet</h2>
+      <!--H2 cause it's importent the search engine will maybe display this info-->
+      <a class="btn all-cap" href="">contact us</a>
+    </div>
+
+
+
+    <section class="background-strip">  <!--general overview-->
+
+
+      <div>
+        <h2 class="all-cap">engage viewers, differenttiate expence and drive new revenue</h2>
+        <p>with highly-relevant contextual services</p>
+      </div>
+
+      <ul class="first-letter more-info">
+        <li>
+
+          <input type="radio" id="figureLoders1" name="figurSwitch">
+          <label for="figureLoders1">pedia</label>
+
+
+
+          <!--<a href="#"><span>pedia</span></a>-->
+          <figure>
+            <figcaption>drive stickiness by enriching content with contextual data from external sources
+            </figcaption>
+            <img src="assets/services/pedia.png" alt="example one">
+          </figure>
+
+
+          <video poster="http://www.comigo.com/wp-content/uploads/2016/03/video-action-thriller-750x422.jpg" autoplay loop>
+            <source src="assets/videos/video-soccer_2.mp4" type="video/mp4">
+            <!--</video>-->
+            <source src="" type="video/ogg">
+            Your browser does not support HTML5 video.
+          </video>
+
+
+        </li>
+
+        <li>
+          <input type="radio" id="figureLoders2" name="figurSwitch">
+          <label for="figureLoders2">participation</label>
+          <!--<a href="#"> <span>participation</span></a>-->
+          <figure>
+            <figcaption>engage viewers and increase content spread through data-driven social features
+            </figcaption>
+            <img src="assets/services/participation.png" alt="example 2">
+          </figure>
+          <video poster="http://www.comigo.com/wp-content/uploads/2016/03/video-action-thriller-750x422.jpg"  autoplay loop>
+            <source src="assets/videos/video-action-thriller_2.mp4" type="video/mp4">
+            <!--</video>-->
+            <source src="" type="video/ogg">
+            Your browser does not support HTML5 video.
+          </video>
+        </li>
+
+        <li>
+          <input type="radio" id="figureLoders3" name="figurSwitch">
+          <label for="figureLoders3">discovery</label>
+          <!--<a href="#"><span>discovery</span></a>-->
+          <figure>
+            <figcaption class="first-letter">offer personalised content with contextualised search, menu and
+              recommendations
+            </figcaption>
+            <img src="assets/services/discovery.png" alt="example 3">
+          </figure>
+          <video poster="http://www.comigo.com/wp-content/uploads/2016/03/video-army-helicopters-750x422.jpg"  autoplay loop>
+            <source src="assets/videos/video-army-helicopters.mp4" type="video/mp4">
+            <source src="" type="video/ogg">
+            Your browser does not support HTML5 video.
+          </video>
+        </li>
+
+        <li>
+          <input type="radio" id="figureLoders4" name="figurSwitch">
+          <label for="figureLoders4">commerce</label>
+          <!--<a href=""><span>commerce</span></a>-->
+          <figure>
+            <figcaption>create new revenue engines through
+              contextual shopping services
+            </figcaption>
+            <img src="assets/services/commerce.png" alt="example 4">
+          </figure>
+          <video poster="http://www.comigo.com/wp-content/uploads/2016/03/video-city-3d-war-750x422.jpg"   autoplay loop>
+            <source src="assets/videos/video-city-3d-war_2.mp4" type="video/mp4">
+            <source src="" type="video/ogg">
+            Your browser does not support HTML5 video.
+          </video>
+        </li>
+
+        <li>
+          <input type="radio" id="figureLoders5" name="figurSwitch">
+          <label for="figureLoders5">customize</label>
+          <!--<a href=""><span>customize</span></a>-->
+          <figure>
+            <figcaption>quickly launch new, unique services
+              based on our open SDK
+            </figcaption>
+            <img src="assets/services/customize.png" alt="example 6">
+          </figure>
+          <video poster="http://www.comigo.com/wp-content/uploads/2016/03/video-kids-on-sofa-750x422.jpg" autoplay loop>
+            <source src="assets/videos/video-kids-on-sofa_2.mp4" type="video/mp4">
+            <source src="" type="video/ogg">
+            Your browser does not support HTML5 video.
+          </video>
+        </li>
+
+        <li>
+          <input type="radio" id="figureLoders6" name="figurSwitch">
+          <label for="figureLoders6">advertising</label>
+          <!--<a href=""><span>advertising</span></a>-->
+          <figure>
+            <figcaption>offer ultra-targeted measurable advertising with advanced campaign analytics
+            </figcaption>
+            <img src="assets/services/car.png" alt="example 5">
+          </figure>
+          <video poster="http://www.comigo.com/wp-content/uploads/2016/03/video-car-drive-750x422.jpg"  autoplay loop>
+            <source src="assets/videos/video-car-drive_2.mp4" type="video/mp4">
+            <source src="" type="video/ogg">
+            Your browser does not support HTML5 video.
+          </video>
+        </li>
+
+
+      </ul>
+
+
+      <!--enhance TV servece explnation-->
+
+    </section>
+    <section class="clearfix">
+      <section class="half-strip inhance">
+        <h2 class="all-cap"> enhance any tv service</h2>
+        <p class="capitalize">comigo experience intelligence (EI)</p>
+        <a class="btn btn-negetive all-cap" href="">enhance your OTT TV</a>
+
+      </section>
+
+      <!--deploy on android-->
+
+      <section class="half-strip delpoy">
+        <h2 class="all-cap"> deploy best in class tv service</h2>
+        <p class="capitalize">comigo's android-based STB (HW&MW)</p>
+        <a class="btn all-cap" href="">deploy on android</a>
+      </section>
+    </section>
+
+    <!--WatchApp application on comigo-->
+
+    <section class="white-strip content">
+      <h5 class="all-cap">your content, comigo's unique exeroence</h5>
+      <p class="capitalize">intelligence-based contextual WatchApp™ Applications.</p>
+      <a class="btn all-cap" href="">learn more</a>
+
+    </section>
+
+
+    <!--Joining info-->
+
+    <section class="white-strip big clearfix">
+      <div class="all-cap demo">
+        <a href=""><span>schedual a demo</span></a> <!--Demo link-->
+
+      </div>
+
+      <div class="learn-more">
+        <h3 class="all-cap">learn more about comigo</h3>
+        <a href="file.pdf">download our brochure to learn more
+          <span id="corenr"></span>
+          <span id="shape"></span>
+        </a>
+
+      </div>
+
+      <div class="social-media html-links">
+        <ul>
+          <li><a href=""> <img src="" alt="Facebook"></a></li>
+          <li><a href=""> <img src="" alt="Twitter"></a></li>
+          <li><a href=""> <img src="" alt="linkdin"></a></li>
+          <li><a href=""> <img src="" alt="youyube"></a></li>
+        </ul> <!--social media link-->
+      </div>
+
+      <div class="meeting">
+        <a href=""><span>scedual a meeting at ibc 2016</span></a> <!--meeting link-->
+      </div>
+
+
+    </section>
+
+
+    <!--the blog -->
+    <aside class="blog-strip">
+
+      <ul class="clearfix">    <!--list of blogs-->
+        <li class="all-cap">
+          <a class="blog-title" href="#"><h2>our blog</h2>
+            the inside view
+          </a>
+        </li>
+        <li class="capitalize">
+          <a href="#">
+            <span class="capitalize"> comigo’s Experience Intelligence Products Redefine TV – And You Can Find Out How at  IBC201 </span>
+            <span class="all-cap">read more</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="capitalize"> what We Learned at TV Connect 2016 </span>
+            <span class="all-cap">read more</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <span class="capitalize"> Big Data Meets TV – The Next Phase In the TV Experience Evolution</span>
+            <span class="all-cap">read more</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <span class="capitalize">Comigo Will Bring an Infusion of Internet Power and Contextual TV to Life at TV Connectm 2016</span>
+
+            <span class="all-cap">read more</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="">
+            <span class="capitalize">Quality, Set-Top-Boxes, Crappy Cars, and Caveat Emptor</span>
+            <span class="all-cap">read more</span>
+          </a>
+        </li>
+
+      </ul>
+    </aside>
+
+  </article>
+
+</main>
+
+
+<!--links, logo, <small> and social links-->
+<footer class="main-footer">
+
+
+  <!--site maps-->
+
+  <div class="footer-a-background clearfix">
+
+    <ul class="menu-footer-font all-cap">
+      <li><a href="#">home</a></li>
+      <li><a href="#">partners</a></li>
+      <li><a href="#">about</a></li>
+      <li><a href="#">our solutions</a>
+        <ul>
+          <li><a href="#">el cloud</a></li>
+          <li><a href="#">el middleware </a></li>
+          <li><a href="#">android stb </a></li>
+        </ul>
+      </li>
+      <li><a href="#">industry inshights</a>
+        <ul>
+          <li><a href="#">el cloud</a></li>
+          <li><a href="#">el middleware </a></li>
+          <li><a href="#">android stb </a></li>
+        </ul>
+      </li>
+      <li><a href="#">contact</a></li>
+    </ul>
+
+    <a href="index.html"> <img src="assets/logo/comigo-logo-white.png" alt="logo of comigo"> </a>
+  </div>
+
+  <!--logo on company-->
+
+
+  <div class="footer-b-background clearfix">
+    <section class="rights-and-more cleafix">
+      <small>All rights reserved Comigo © 2016</small>
+      <ul class="buisness-links">
+        <li><a href="">terms of use</a></li>
+        <li><a href="">contact us</a></li>
+        <li><a href="">privecy policy</a></li>
+      </ul>
+
+
+      <ul class="social-media buttom-links">
+        <li><a href=""> <img src="" alt="Facebook"></a></li>
+        <li><a href=""> <img src="" alt="Twitter"></a></li>
+        <li><a href=""> <img src="" alt="linkdin"></a></li>
+        <li><a href=""> <img src="" alt="youyube"></a></li>
+      </ul> <!--social media link-->
+
+      <p>developed by <a href="">FATLADY</a></p>
+    </section>
+  </div>
+
+</footer>
+
+
+</body>
+</html>

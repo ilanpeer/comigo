@@ -1,10 +1,12 @@
-/* Global + Links - LoVe HaTe(?) */
+/* Global */
 
 html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -20,15 +22,9 @@ a:visited {
   text-decoration: none;
 }
 
-a:hover,
-a:active {
-  color: #f14848;
-  outline: none;
-}
-
 /* Buttons */
 
-.red-btn {
+a.button {
   display: inline-block;
   background-color: #f14848;
   color: #ffffff;
@@ -37,17 +33,19 @@ a:active {
   padding: 11px 20px;
   border-radius: 20px;
   font-weight: 400;
-  font-size: 0.9rem;
+  font-size: 1.5vw;
+  box-shadow: 0 0 0 rgba(0, 0, 0, .15);
   letter-spacing: 0.1rem;
-  transition: all 200ms linear;
+  transition: all 200ms ease-in-out;
+  line-height: 0.8;
 }
 
-.red-btn:hover {
-  box-shadow: 0 3px 10px 10px rgba(238, 238, 238, 0.3);
+a.button:hover {
+  box-shadow: 0 12px 32px rgba(0, 0, 0, .15);
   transform: translateY(-3px);
 }
 
-.white-btn {
+.button-white {
   display: inline-block;
   background-color: #ffffff;
   color: #f14848;
@@ -61,7 +59,7 @@ a:active {
   transition: all 200ms linear;
 }
 
-.white-btn:hover {
+.button-white:hover {
   box-shadow: 0 3px 10px 10px rgba(238, 238, 238, 0.3);
   transform: translateY(-3px);
 }
@@ -76,6 +74,7 @@ header {
   width: 100%;
   background-color: #ffffff;
   z-index: 100;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, .075);
 }
 
 .logo-top {
@@ -122,8 +121,7 @@ header {
 /* Top Banner */
 
 .top-banner {
-  background-image: url("../assets/other/homepage-featured-new-1920x745.jpg");
-  background-repeat: no-repeat;
+  background: url("../assets/other/homepage-featured-new-1920x745.jpg") no-repeat;
   background-size: cover;
   height: 38.322vw;
   text-align: center;
@@ -132,22 +130,23 @@ header {
 
 .top-banner h2 {
   color: white;
-  font-size: 2rem;
+  font-size: 3.4vw;
   font-weight: 400;
   line-height: 0.3;
 }
 
 .top-banner p {
   color: white;
-  font-size: 4rem;
+  font-size: 7.5vw;
   margin: 3% 0 5%;
   line-height: 0.3;
 }
 
-/* Why Comigo? */
+/* Why Comigo */
 
 .why-comigo {
   display: block;
+  color: #FFFFFF;
   height: 25vw;
   text-align: center;
 }
@@ -155,31 +154,28 @@ header {
 .why-comigo h3 {
   text-transform: uppercase;
   color: #3d3d3d;
-  font-size: 3rem;
+  font-size: 5.5vw;
   font-weight: 300;
-  margin: 10% 0 0;
+  line-height: 0.5;
 }
 
 .why-comigo p {
   color: #3d3d3d;
-  font-size: 1.2rem;
+  font-size: 2vw;
   font-weight: 300;
-  line-height: 1.5;
+  line-height: 0.5;
+}
 
+.why-comigo p:nth-child(3) {
+  padding-bottom: 15px;
 }
 
 /* Interactive (a.k.a. Services) */
 
 .services {
   display: block;
-  background-color: black;
-  width: 100%;
-  height: 44vw;
-  margin: 0 auto;
-}
-
-.services-pics-right ul li figure img {
-  /*height: 400px;*/
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 40vw;
 }
 
 .align-services {
@@ -190,27 +186,27 @@ header {
 .services-txts-left {
   float: left;
   width: 30%;
-  padding-left: 8%;
+  padding: 4% 0 0 8%;
   text-align: left;
   color: white;
 }
 
 .services-txts-left h2 {
-  font-size: 2.1rem;
+  font-size: 3vw;
   text-transform: uppercase;
   font-weight: 300;
+  margin: 0;
 }
 
 .services-txts-left p {
-  font-size: 1.2rem;
+  font-size: 1.4vw;
   font-weight: 300;
 }
 
 .services-pics-right {
   float: right;
   width: 60%;
-  padding-right: 5%;
-  padding-top: 2%;
+  padding-top: 4%;
 }
 
 .services-list {
@@ -220,8 +216,8 @@ header {
 }
 
 .services-list a {
-  font-size: 1.5rem;
-  line-height: 3rem;
+  font-size: 2vw;
+  line-height: 1.7;
   display: block;
   width: 200px;
   text-transform: uppercase;
@@ -233,13 +229,23 @@ header {
   top: 0;
   left: 200px;
   vertical-align: middle;
-  font-size: 1.2rem;
+  font-size: 1.2vw;
   display: none;
   text-align: center;
 }
 
 .services-list a:hover + figure {
   display: inline-block;
+}
+
+video {
+  position: absolute;
+  /*min-height: 40%;*/
+  width: 1360px;
+  top: -170px;
+  left: -560px;
+  z-index: -100;
+
 }
 
 /* 3 Solution Boxes */
@@ -253,9 +259,7 @@ header {
   float: left;
   width: 50%;
   height: 100%;
-  background-image: url("../assets/other/ic_EI_cloud_2_home_page.png"), url("../assets/other/home-tv-service-bg1.png");
-  background-position: 120px 60px, center;
-  background-repeat: no-repeat;
+  background: url("../assets/other/ic_EI_cloud_2_home_page.png"), url("../assets/other/home-tv-service-bg1.png") no-repeat 120px 60px, center;
   background-size: 50%, cover;
 }
 
@@ -263,9 +267,7 @@ header {
   float: right;
   height: 100%;
   width: 50%;
-  background-image: url("../assets/other/ic-stb-screens.png"), url("../assets/other/home-tv-service-bg2.png");
-  background-position: 50px 60px, center;
-  background-repeat: no-repeat;
+  background: url("../assets/other/ic-stb-screens.png"), url("../assets/other/home-tv-service-bg2.png") no-repeat 50px 60px, center;
   background-size: 40%, cover;
 }
 
@@ -304,9 +306,7 @@ header {
 .solutions-3 {
   display: block;
   height: 50vw;
-  background-image: url("../assets/other/screen_whos_on.jpg");
-  background-repeat: no-repeat;
-  background-position: 115% 50%;
+  background: url("../assets/other/screen_whos_on.jpg") no-repeat 115% 50%;
   background-size: 60% auto;
   padding-left: 10%;
 }
@@ -403,10 +403,7 @@ header {
   float: right;
   height: 100%;
   width: 70%;
-  background-color: #e8e8e8;
-  background-image: url("../assets/other/img-event-IBC.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
+  background: #e8e8e8 url("../assets/other/img-event-IBC.jpg") no-repeat center;
   font-size: 1.5rem;
   font-weight: 300;
   text-transform: uppercase;
@@ -421,11 +418,8 @@ header {
 .schedule-demo {
   display: block;
   height: 100%;
-  background-color: #efefef;
-  background-image: url("../assets/other/screen_demo.jpg");
-  background-repeat: no-repeat;
   background-size: 90%;
-  background-position: bottom right;
+  background: #efefef url("../assets/other/screen_demo.jpg") no-repeat bottom right;
   font-size: 3.4rem;
   text-transform: uppercase;
   padding-left: 10%;
@@ -457,7 +451,6 @@ header {
   font-size: 1.1rem;
   font-weight: 300;
   color: #FFFFFF;
-
 }
 
 .read-more {
@@ -467,7 +460,6 @@ header {
   background-color: #f14848;
   text-align: center;
   line-height: 120px;
-
 }
 
 .blog-links ul li {
@@ -487,36 +479,31 @@ header {
 }
 
 .ibc2016 {
-  background-image: url("../assets/blog/ibc_post_EI-750x508.png");
-  background-repeat: no-repeat;
+  background: url("../assets/blog/ibc_post_EI-750x508.png") no-repeat;
   display: block;
   height: 35.99vw;
 }
 
 .tv-connect {
-  background-image: url("../assets/blog/IMG_9294-750x563.jpeg");
-  background-repeat: no-repeat;
+  background: url("../assets/blog/IMG_9294-750x563.jpeg") no-repeat;
   display: block;
   height: 35.99vw;
 }
 
 .big-data {
-  background-image: url("../assets/blog/Image-Blog-Yoav_356121362-copy-750x563.jpg");
-  background-repeat: no-repeat;
+  background: url("../assets/blog/Image-Blog-Yoav_356121362-copy-750x563.jpg") no-repeat;
   display: block;
   height: 35.99vw;
 }
 
 .infusion {
-  background-image: url("../assets/blog/post_tv_connect-750x508.jpeg");
-  background-repeat: no-repeat;
+  background: url("../assets/blog/post_tv_connect-750x508.jpeg") no-repeat;
   display: block;
   height: 35.99vw;
 }
 
 .emptor {
-  background-image: url("../assets/blog/post_quality-750x508.jpeg");
-  background-repeat: no-repeat;
+  background: url("../assets/blog/post_quality-750x508.jpeg") no-repeat;
   display: block;
   height: 35.99vw;
 }
@@ -626,15 +613,6 @@ header {
 
 /* Helpers */
 
-/**
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    contenteditable attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that are clearfixed.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
 .clearfix:before,
 .clearfix:after {
   content: " "; /* 1 */
@@ -769,14 +747,4 @@ header {
     vertical-align: middle;
   }
 
-}
-
-@media (min-width: 701px) {
-
-}
-
-@media (max-width: 660px) {
-  .footer {
-    max-width: 560px;
-  }
 }
