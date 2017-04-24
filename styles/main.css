@@ -238,7 +238,7 @@ header {
   display: inline-block;
 }
 
-video {
+.pedia-video {
   position: absolute;
   /*min-height: 40%;*/
   width: 1360px;
@@ -259,7 +259,9 @@ video {
   float: left;
   width: 50%;
   height: 100%;
-  background: url("../assets/other/ic_EI_cloud_2_home_page.png"), url("../assets/other/home-tv-service-bg1.png") no-repeat 120px 60px, center;
+  background-image: url("../assets/other/ic_EI_cloud_2_home_page.png"), url("../assets/other/home-tv-service-bg1.png");
+  background-position: 120px 60px, center;
+  background-repeat: no-repeat;
   background-size: 50%, cover;
 }
 
@@ -267,7 +269,9 @@ video {
   float: right;
   height: 100%;
   width: 50%;
-  background: url("../assets/other/ic-stb-screens.png"), url("../assets/other/home-tv-service-bg2.png") no-repeat 50px 60px, center;
+  background-image: url("../assets/other/ic-stb-screens.png"), url("../assets/other/home-tv-service-bg2.png");
+  background-position: 50px 60px, center;
+  background-repeat: no-repeat;
   background-size: 40%, cover;
 }
 
